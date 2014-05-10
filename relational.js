@@ -16,7 +16,8 @@ adapter._init = function(options) {
     user: options.username,
     password: options.password,
     port: options.port,
-    query: options.flags
+    query: options.flags,
+    socketPath: options.socketPath
   });
 
   // Setup db object after connection.
